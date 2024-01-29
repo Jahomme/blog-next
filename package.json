@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy:static": "next build && next export"
   },
   "dependencies": {
     "disqus-react": "^1.1.5",
@@ -18,8 +19,7 @@
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "strapi-plugin-populate-deep": "^3.0.1",
-    "styled-components": "^6.1.8",
-    "deploy:static": "next build && next export"
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
     "@types/node": "^20",
