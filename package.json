@@ -18,7 +18,8 @@
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "strapi-plugin-populate-deep": "^3.0.1",
-    "styled-components": "^6.1.8"
+    "styled-components": "^6.1.8",
+    "deploy:static": "next build && next export"
   },
   "devDependencies": {
     "@types/node": "^20",
