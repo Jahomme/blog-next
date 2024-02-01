@@ -10,7 +10,7 @@ export const Comments = ({ slug, title }: CommentsProps) => {
   return (
     <Container>
       <DiscussionEmbed
-        shortname="meublog-5"
+        shortname="blog-next-8"
         config={{
           url: `/post/${slug}`,
           identifier: slug,
