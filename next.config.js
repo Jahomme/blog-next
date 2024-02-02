@@ -3,7 +3,7 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  output: 'export',
+  target: 'serverless',
   reactStrictMode: true,
 };
 
