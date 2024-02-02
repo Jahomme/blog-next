@@ -13,10 +13,9 @@ export default function Category({ posts, category }: CategoryProps) {
 }
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
-  // Esse trecho de código a seguir irá funcionar apenas para arrays com um elemento apenas pois, ele irá pegar o primeiro elemento dele.
-  const category = Array.isArray(ctx.query.category)
-    ? ctx.query.category[0]
-    : ctx.query.category;
+    
+  const category =
+    typeof ctx.query.category === 'string' ? ctx.query.category : '';
 
   const formattedCategory =
     category.charAt(0).toUpperCase() + category.slice(1);
