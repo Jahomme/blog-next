@@ -10,7 +10,8 @@ export const Container = styled.div`
 export const PostCardCover = styled.div`
   margin-bottom: ${({ theme }) => theme.spacings.small};
   img {
-    width: 100%;
+    height: 160px;
+    width: 280px;
     display: block;
   }
 `;
