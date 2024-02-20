@@ -7,7 +7,7 @@ O blog de tecnologia é um projeto realizazdo em next.js que consome uma API cri
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 
@@ -19,6 +19,7 @@ O blog de tecnologia é um projeto realizazdo em next.js que consome uma API cri
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - TypeScript
+- JavaScript
 - HTML e CSS
 - Git e Github
 - Strapi
