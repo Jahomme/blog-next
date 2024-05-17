@@ -18,6 +18,7 @@ O blog de tecnologia é um projeto realizazdo em next.js que consome uma API cri
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
+- Next.js
 - TypeScript
 - JavaScript
 - HTML e CSS
