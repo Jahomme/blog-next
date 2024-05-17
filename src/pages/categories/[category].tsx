@@ -13,7 +13,7 @@ export default function Category({ posts, category }: CategoryProps) {
 }
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
-    
+
   const category =
     typeof ctx.query.category === 'string' ? ctx.query.category : '';
 
